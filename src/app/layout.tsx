@@ -1,13 +1,15 @@
 import type { Metadata } from 'next'
-import { Montserrat } from 'next/font/google'
+import { Montserrat as FontSans } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 
+import { cn } from '../../lib/utils'
+
 const GTM_ID = 'GTM-KVN3F3HK'
 
-const montserrat = Montserrat({
+const fontSans = FontSans({
   subsets: ['latin'],
-  display: 'swap',
+  variable: '--font-sans',
 })
 
 export const metadata: Metadata = {
@@ -33,7 +35,7 @@ export default function RootLayout({
         `}
       </Script>
       <body
-        className={`${montserrat.className} min-h-screen font-sans antialiased`}
+        className={cn('min-h-screen font-sans antialiased', fontSans.variable)}
       >
         <noscript
           dangerouslySetInnerHTML={{
