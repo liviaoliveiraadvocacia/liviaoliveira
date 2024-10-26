@@ -199,7 +199,6 @@ type FooterButtonAnchorProps = ComponentProps<'a'>
 export function FooterButtonAnchor(props: FooterButtonAnchorProps) {
   return (
     <a
-      target="_blank"
       aria-label="Clique no botão"
       className="focus:shadow-outline inline-flex h-16 w-full items-center justify-center rounded-md bg-transparent px-4 py-6 font-medium tracking-wide text-white shadow-lg hover:bg-brandBlue500/10 hover:transition-colors focus:outline-none sm:h-14 md:w-auto"
       {...props}

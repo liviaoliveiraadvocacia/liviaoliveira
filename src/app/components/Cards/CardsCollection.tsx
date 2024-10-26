@@ -46,7 +46,7 @@ export function CardsCollection() {
       subtitle2: 'Aposentadoria Especial',
       subtitle3: 'Aposentadoria por Invalidez',
       subtitle4: 'Aposentadoria por Tempo de Contribuição',
-      subtitle5: 'Aposentadoria por Idade',
+      subtitle44: 'Aposentadoria por Idade',
     },
     {
       iconCard: (
@@ -139,6 +139,12 @@ export function CardsCollection() {
                 <CardPropertyIconList>{item.iconList1}</CardPropertyIconList>
                 <CardListDiv>
                   <CardListH1>{item.subtitle4}</CardListH1>
+                </CardListDiv>
+              </CardGridLi>
+              <CardGridLi>
+                <CardPropertyIconList>{item.iconList1}</CardPropertyIconList>
+                <CardListDiv>
+                  <CardListH1>{item.subtitle44}</CardListH1>
                 </CardListDiv>
               </CardGridLi>
               <CardGridLi>
