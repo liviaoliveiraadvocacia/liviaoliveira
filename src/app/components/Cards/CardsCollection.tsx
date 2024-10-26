@@ -42,10 +42,11 @@ export function CardsCollection() {
         </svg>
       ),
       title: 'Aposentadorias',
-      subtitle1: 'Aposentadoria Especial',
-      subtitle2: 'Aposentadoria por Invalidez',
-      subtitle3: 'Aposentadoria por tempo de contribuição',
-      subtitle4: 'Aposentadoria por Idade',
+      subtitle1: 'Aposentadoria PCD',
+      subtitle2: 'Aposentadoria Especial',
+      subtitle3: 'Aposentadoria por Invalidez',
+      subtitle4: 'Aposentadoria por Tempo de Contribuição',
+      subtitle5: 'Aposentadoria por Idade',
     },
     {
       iconCard: (
